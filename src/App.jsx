@@ -87,7 +87,7 @@ function App() {
           <form>
             <div className='mb-3'>
               {/* Principle Amount */}
-              <Input value={principal} placeholder="Principle Amount" onChange={e => validateInputs(e.target)} name='principle' />
+              <Input value={principal} placeholder="Principle Amount" onChange={e => validateInputs(e.target)} name='principal' />
             </div>
             {/* Invlaid alert */}
             {invalidPrincipal && <div className='mb-3 text-red-600'>Invalid Principal Amount</div>}
